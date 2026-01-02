@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+lunar_python
+pydantic
