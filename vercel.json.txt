@@ -1,5 +1,13 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index.py" }
-  ]
-}
+      "rewrites": [
+        { "source": "/(.*)", "destination": "/api/index.py" }
+      ]
+    }
+    ```
+
+2.  **推送更新：**
+    在終端機中執行：
+    ```bash
+    git add vercel.json
+    git commit -m "fix: update vercel routing to rewrites"
+    git push
